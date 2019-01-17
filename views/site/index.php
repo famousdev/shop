@@ -41,16 +41,16 @@
                   <div class="card-body text-center">
                     <a href="/product/<?php echo $product['id'];?>" class="grey-text">
                       <h5><?php echo $product['name'];?></h5>
+                      
                     </a>
-                    <?php if ($product['new']):?>
-                    <h5>
+                    
+                    <h4 class="font-weight-bold blue-text">
+                      <strong><?php echo $product['price'];?>$</strong>
+                      <?php if ($product['new']):?>
                       <strong>
                      <span class="badge badge-pill danger-color">New</span>
                       </strong>
-                    </h5>
                     <?php endif;?>
-                    <h4 class="font-weight-bold blue-text">
-                      <strong><?php echo $product['price'];?>$</strong>
                     </h4>
                   </div>
                 </div>
