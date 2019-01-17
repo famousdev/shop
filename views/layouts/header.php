@@ -52,27 +52,30 @@
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a href="#" class="nav-link waves-effect">Home</a>
+              <a href="/" class="nav-link waves-effect">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link waves-effect">Products</a>
+                <a href="/catalog/" class="nav-link waves-effect">Products</a>
               </li>
               <li class="nav-item">
-                  <a href="#" class="nav-link waves-effect">About Us</a>
+                  <a href="/about/" class="nav-link waves-effect">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link waves-effect">Blog</a>
+                    <a href="/blog/" class="nav-link waves-effect">Blog</a>
                   </li>
                   <li class="nav-item">
-                      <a href="#" class="nav-link waves-effect">Contacts</a>
+                      <a href="/contacts/" class="nav-link waves-effect">Contacts</a>
                     </li>
           </ul>
           <ul class="navbar-nav nav-flex-icons">
             <li class="nav-item">
-              <a href="#" class="nav-link waves-effect">
+              <a href="/cart/" class="nav-link waves-effect">
                 <span class="badge red z-depth-1 mr-1">12</span>
                 <i class="fa fa-shopping-cart"></i>
                 <span class="clearfix d-none d-sm-inline-block">Cart</span>
+              </a>
+              <li class="nav-item">
+              <a href="/account/" class="nav-link waves-effect">
                 <i class="fas fa-user-alt"></i>
                 <span class="clearfix d-none d-sm-inline-block">Login</span>
               </a>
