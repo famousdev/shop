@@ -37,12 +37,11 @@
   }
   </style>
 </head>
-
 <body>
 <header>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
     <div class="container">
-        <a href="#" class="navbar-brand waves-effect">
+        <a href="/" class="navbar-brand waves-effect">
           <strong class="blue-text">Famous</strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
@@ -86,12 +85,12 @@
                 </a>
               </li>
               <li class="nav-item">
-                  <a href="#" class="nav-link waves-effect">
+                  <a href="facebook.com" class="nav-link waves-effect">
                     <i class="fab fa-facebook fa-2x"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link border border-light rounded waves-effect">
+                    <a href="youtube.com" class="nav-link border border-light rounded waves-effect">
                       <i class="fab fa-youtube fa-2x"></i>
                     </a>
                   </li> 
@@ -112,7 +111,7 @@
         <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
           <div class="text-center white-text mx-5 wow fadeIn">
             <h1 class="mb-4">
-              <strong>Famous Store</strong>
+              <strong>Famous Shop</strong>
             </h1>
               <p>
                 <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -138,7 +137,7 @@
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
             <div class="text-center white-text mx-5 wow fadeIn">
               <h1 class="mb-4">
-                <strong>Famous Store</strong>
+                <strong>Famous Shop</strong>
               </h1>
                 <p>
                   <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -163,7 +162,7 @@
             <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
               <div class="text-center white-text mx-5 wow fadeIn">
                 <h1 class="mb-4">
-                  <strong>Famous Store</strong>
+                  <strong>Famous Shop</strong>
                 </h1>
                   <p>
                     <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -191,3 +190,28 @@
       </a>
   </div>
   </header>
+  <main>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark mdb-color lighten-3 mt-3 mb-5">
+        <span class="navbar-brand">Категории:</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nextNav"
+            aria-controls="nextNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <?php foreach ($categories as $categoryItem): ?>
+        <div class="collapse navbar-collapse" id="nextNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="/category/<?php echo $categoryItem['id']; ?>" class="nav-link">
+              <?php echo $categoryItem['name']; ?>
+              </a>
+            </li>
+          </ul>
+          <?php endforeach; ?>
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input type="text" class="form-control mr-sm-2" placeholder="Поиск" aria-label="Поиск"></input>
+            </div>
+          </form>
+        </div>
+      </nav>
