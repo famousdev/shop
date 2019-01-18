@@ -80,7 +80,7 @@
               </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link waves-effect">
+                <a href="https://github.com/famousdev" class="nav-link waves-effect">
                     <i class="fab fa-github fa-2x"></i>
                 </a>
               </li>
@@ -106,7 +106,7 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
-        <div class="view" style="background-image: url('https://dontsmellbad.com/wp-content/uploads/2017/05/230-famous.jpg');
+        <div class="view" style="background-image: url('/template/img/slider_1.jpg');
         background-repeat: no-repeat; background-size: cover;">
         <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
           <div class="text-center white-text mx-5 wow fadeIn">
@@ -114,13 +114,14 @@
               <strong>Famous Shop</strong>
             </h1>
               <p>
-                <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Dolore, exercitationem.</strong>
+                <strong>Продажа качественной техники от известных брендов.</strong>
               </p>
 
               <p class="mb-4 d-none d-md-block">
-                <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  Ea inventore aliquam doloremque ut quia sapiente!</strong>
+                <strong><p>Покупай, когда остальные продают, и удерживай до тех пор, 
+                      пока кто-нибудь не захочет это купить. Это не просто лозунг.
+                      Это суть успешного инвестирования.
+                      <p>J. Paul Getty</p></strong>
                 </p>
                 <a href="#" class="btn btn-outline-white btn-lg">
                   Заказать 
@@ -132,7 +133,7 @@
       </div>
 
       <div class="carousel-item">
-          <div class="view" style="background-image: url('http://thequotes.in/wp-content/uploads/2016/05/Mark-Twain-Quote-20.jpg');
+          <div class="view" style="background-image: url('/template/img/slider_2.jpg');
           background-repeat: no-repeat; background-size: cover;">
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
             <div class="text-center white-text mx-5 wow fadeIn">
@@ -140,13 +141,14 @@
                 <strong>Famous Shop</strong>
               </h1>
                 <p>
-                  <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dolore, exercitationem.</strong>
+                  <strong>Продажа качественной техники от известных брендов.</strong>
                 </p>
   
                 <p class="mb-4 d-none d-md-block">
-                  <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Ea inventore aliquam doloremque ut quia sapiente!</strong>
+                  <strong><p>Покупай, когда остальные продают, и удерживай до тех пор, 
+                      пока кто-нибудь не захочет это купить. Это не просто лозунг.
+                      Это суть успешного инвестирования.
+                      <p>J. Paul Getty</p></strong>
                   </p>
                   <a href="#" class="btn btn-outline-white btn-lg">
                     Заказать 
@@ -157,7 +159,7 @@
         </div>
         </div>
         <div class="carousel-item">
-            <div class="view" style="background-image: url('https://static.sorozatbarat.online/covers/5460/5.jpg');
+            <div class="view" style="background-image: url('/template/img/slider_3.jpg');
             background-repeat: no-repeat; background-size: cover;">
             <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
               <div class="text-center white-text mx-5 wow fadeIn">
@@ -165,14 +167,17 @@
                   <strong>Famous Shop</strong>
                 </h1>
                   <p>
-                    <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                      Dolore, exercitationem.</strong>
+                    <strong>Продажа качественной техники от известных брендов.</strong>
                   </p>
     
                   <p class="mb-4 d-none d-md-block">
-                    <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                      Ea inventore aliquam doloremque ut quia sapiente!</strong>
-                    </p>
+                      <strong>
+                      <p>Покупай, когда остальные продают, и удерживай до тех пор, 
+                      пока кто-нибудь не захочет это купить. Это не просто лозунг.
+                      Это суть успешного инвестирования.
+                      <p>J. Paul Getty</p>
+                      </strong>
+          
                     <a href="#" class="btn btn-outline-white btn-lg">
                       Заказать 
                       <i class="fa fa-shopping-cart ml-2"></i>
