@@ -13,7 +13,7 @@
   <!-- Material Design Bootstrap -->
   <link href="/template/css/mdb.min.css" rel="stylesheet">
   <!-- Сustom styles (optional) -->
-  <link href="template/css/style.css" rel="stylesheet">
+  <link href="/template/css/style.css" rel="stylesheet">
   <style>
     html,
     body,
@@ -74,7 +74,7 @@
                 <span class="clearfix d-none d-sm-inline-block">Cart</span>
               </a>
               <li class="nav-item">
-              <a href="/account/" class="nav-link waves-effect">
+              <a href="/user/register/" class="nav-link waves-effect">
                 <i class="fas fa-user-alt"></i>
                 <span class="clearfix d-none d-sm-inline-block">Login</span>
               </a>
