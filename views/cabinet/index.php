@@ -58,6 +58,12 @@
               </a>
             </li>
             <li class="nav-item">
+              <a href="/user/login/" class="nav-link waves-effect">
+                <i class="fas fa-lock"></i>
+                <span class="clearfix d-none d-sm-inline-block">Sing In</span>
+              </a>
+            </li>
+            <li class="nav-item">
                 <a href="https://github.com/famousdev" class="nav-link waves-effect">
                     <i class="fab fa-github fa-2x"></i>
                 </a>
@@ -76,91 +82,17 @@
         </div>
     </div>
   </nav>
-<!-- Material form register -->
-<div class="container justify-content-center">
-
-        <?php if(isset($err) && is_array($err)):?>
-        <ul>
-            <?php foreach ($err as $error): ?>
-            <li>- <?php echo $error; ?></li>
-            <?php endforeach; ?>
-        </ul>
-            <?php endif;?>
-
-<div class="card">
-
-    <h5 class="card-header info-color white-text text-center py-4">
-        <strong>Регистрация</strong>
-    </h5>
-
-    <!--Card content-->
-    <div class="card-body px-lg-5 pt-0">
-
-        <!-- Form -->
-        <form action="#" method="post" class="text-center" style="color: #757575;">
-
-            <div class="form-row">
-                <div class="col">
-                    <!-- First name -->
-                    <div class="md-form">
-                        <input type="text" id="materialRegisterFormFirstName" class="form-control" name="name" 
-                        value="<?php echo $name; ?>">
-                        <label for="materialRegisterFormFirstName">Name</label>
-                    </div>
-                </div>
-            </div>
-
-            <!-- E-mail -->
-            <div class="md-form mt-0">
-                <input type="email" id="materialRegisterFormEmail" class="form-control" name="email" 
-                        value="<?php echo $email; ?>">
-                <label for="materialRegisterFormEmail">E-mail</label>
-            </div>
-
-            <!-- Password -->
-            <div class="md-form">
-                <input type="password" name="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock"
-                 value="<?php echo $password; ?>">
-                <label for="materialRegisterFormPassword">Password</label>
-                <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
-
-                </small>
-            </div>
-
-            <!-- Sign up button -->
-            <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit" name="submit">Sign in</button>
-
-            <!-- Social register -->
-            <p>войти с помощью:</p>
-
-            <a type="button" class="btn-floating btn-fb btn-sm">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a type="button" class="btn-floating btn-tw btn-sm">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a type="button" class="btn-floating btn-li btn-sm">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a type="button" class="btn-floating btn-git btn-sm">
-                <i class="fab fa-github"></i>
-            </a>
-
-            <hr>
-
-            <!-- Terms of service -->
-            <p>By clicking
-                <em>Sign up</em> you agree to our
-                <a href="" target="_blank">terms of service</a>
-
-            </form>
-        <!-- Form -->
-
+<section>
+    <div class="container justify-content-center">
+    <h1>Кабинет</h1>
+        <div class="row">
+                <ul>
+                    <li><a href="/user/edit">Редактировать свои данные</a></li>
+                    <li><a href="/user/history">Список Ваших покупок</a></li>
+                </ul>
         </div>
-
     </div>
+</section>
 
-</div>
-<!-- Material form register -->
 
 <?php include ROOT . '/views/layouts/footer.php'; ?>

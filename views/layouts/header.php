@@ -74,9 +74,15 @@
                 <span class="clearfix d-none d-sm-inline-block">Cart</span>
               </a>
               <li class="nav-item">
-              <a href="/user/register/" class="nav-link waves-effect">
+              <a href="/cabinet/" class="nav-link waves-effect">
                 <i class="fas fa-user-alt"></i>
-                <span class="clearfix d-none d-sm-inline-block">Login</span>
+                <span class="clearfix d-none d-sm-inline-block">Account</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/user/login/" class="nav-link waves-effect">
+                <i class="fas fa-lock"></i>
+                <span class="clearfix d-none d-sm-inline-block">Sing In</span>
               </a>
             </li>
             <li class="nav-item">
