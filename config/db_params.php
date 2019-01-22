@@ -1,8 +1,9 @@
 <?php
 
-return array(
+    return [
     'host' => 'localhost',
     'dbname' => 'famous_shop',
     'user' => 'root',
     'password' => '',
-);
+];
+        
